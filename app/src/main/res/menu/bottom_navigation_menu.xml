@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/searchFragment" android:title="Search Location" android:icon="@drawable/icon_search"></item>
+    <item android:id="@+id/weatherFragment" android:title="My Location Weather" android:icon="@drawable/icon_weather"></item>
+</menu>
