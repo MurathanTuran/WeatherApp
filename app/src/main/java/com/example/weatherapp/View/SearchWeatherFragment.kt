@@ -95,6 +95,9 @@ class SearchWeatherFragment : Fragment() {
 
     }
 
-
+    override fun onDestroy() {
+        super.onDestroy()
+        job?.cancel()
+    }
 
 }
