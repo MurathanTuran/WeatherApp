@@ -72,6 +72,10 @@ class LocationWeatherFragment : Fragment() {
 
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+        job?.cancel()
+    }
 
 
 
